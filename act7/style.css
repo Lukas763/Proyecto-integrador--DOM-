@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#accordion {
+  width: 400px;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.accordion-content {
+  display: none;
+  background-color: #ecf0f1;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.accordion-item.active .accordion-content {
+  display: block;
+}
